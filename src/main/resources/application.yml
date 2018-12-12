@@ -1,0 +1,17 @@
+server:
+  port: 8981
+
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://172.18.0.20:8982/user
+      id: backend
+
+solr:
+  client: http://172.18.0.10:8983/solr/userdata
+  query-page-size: 15
+
+file:
+  users: https://raw.githubusercontent.com/lelodois/trabalhe-conosco-backend-dev/master/users-lite.csv
+  priority1: https://raw.githubusercontent.com/lelodois/trabalhe-conosco-backend-dev/master/lista_relevancia_1.txt
+  priority2: https://raw.githubusercontent.com/lelodois/trabalhe-conosco-backend-dev/master/lista_relevancia_2.txt
