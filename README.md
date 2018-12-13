@@ -4,7 +4,7 @@
 - mvn install
 - docker build -t back-docker .
 - docker run --net searchnet --ip 172.18.0.30 -d -p 8981:8981 back-docker
-https://hub.docker.com/r/lelodois/back-docker/
+- https://hub.docker.com/r/lelodois/back-docker/
 
 ### Tecnologias
 
